@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "language_optimizer",
+  "version": "${version}",
+  "name": "LanguageOptimizer",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/LanguageOptimizer/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.mjtb49.languageoptimizer.LanguageOptimizer"
+    ]
+  },
+  "mixins": [
+    "LanguageOptimizer.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.6",
+    "minecraft": "1.16.1"
+  }
+}
